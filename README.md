@@ -245,6 +245,7 @@ SOFA：[http://www.iausofa.org/index.html](http://www.iausofa.org/index.html)
 
 DE/LE EPHEMERIS：[ftp://ssd.jpl.nasa.gov](ftp://ssd.jpl.nasa.gov)
 
-<p align = "right">WRITE BY Ding Junshneg 2018/11/24</p>
+<p align = "right">WRITE BY Ding Junshneg</p>
+<p align = "right">2018/11/24 16:46</p>
 
 
