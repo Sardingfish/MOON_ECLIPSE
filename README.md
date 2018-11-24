@@ -56,11 +56,12 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
    
 4. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
 
+图片来源：[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
+
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/reference.png)
 
 <p align = "center">Figure 3. 月食参考时间</p>
 
-图片来源：[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
 
 
 
