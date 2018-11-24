@@ -20,7 +20,7 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png)
 
-<center>Figure 1. 月食发生前时刻地月日空间关系示意图</center>
+<p align = "center">Figure 1. 月食发生前时刻地月日空间关系示意图</p>
 
 Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。初亏时刻，存在矢量OE和OM的夹角∠MOE等于视差角ω1和视差角ω2之和（视O为stars，E和M为公转轨道）。
 
