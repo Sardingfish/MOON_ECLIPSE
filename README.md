@@ -4,40 +4,43 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 
 
-##### mainfiles
+##### **mainfiles**
 
 1. MOON_ECLIPSE.f95              !主函数文件
-2. README.md                           !说明文件
-3. SOFALIB.f                                !SOFA及其它官方提供的子程序集
-4. JPLEPH                                     !二进制历表文件
-5. selcon.f                                    !DE历表测试文件
+2. README.md                     !说明文件
+3. SOFALIB.f                     !SOFA及其它官方提供的子程序集
+4. JPLEPH                        !二进制历表文件
+5. selcon.f                      !DE历表测试文件
 
 
 
-##### principles and strategies
+##### **principles and strategies**
 
 1. 下图为月食发生前时刻地月日空间关系，
 
-![](/media/jason/新加卷/UCAS/课程/天体测量学及其应用/H3月食作业/原理图.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png)
 
-<center>Figure 1. 月食发生前时刻地月日空间关系示意图</center>
+<p align = "center">Figure 1. 月食发生前时刻地月日空间关系示意图</p>
 
-Figure 2. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。初亏时刻，存在矢量OE和OM的夹角∠MOE等于视差角ω1和视差角ω2之和（视O为stars，E和M为公转轨道）。
+Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。初亏时刻，存在矢量OE和OM的夹角∠MOE等于视差角ω1和视差角ω2之和（视O为stars，E和M为公转轨道）。
 
 
 
 2. 由于太阳光从太阳出发到经过地球形成影锥需要一定时间，故需要计算光行时。下图为计算光行时的示意图。
 
-![](/media/jason/新加卷/UCAS/课程/天体测量学及其应用/H3月食作业/光行时.png)
+![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/lighttime.png)
 
-<center>Figure 2. 迭代求解光行时</center>
+<p align = "center">Figure 2. 迭代求解光行时</p>
 
 步骤为：
 
-1. 从给定T0时刻的历表⼏何位置，计算观测者⾄被测体的距离L0，估算光⾏时DT0；
-2. 基于被测天体运动速度计算T0+DT0时刻新位置，重新计算观测者⾄被测体的距离L1，估算光⾏时DT1；
-3. 基于被测天体运动速度计算T0+DT1时刻新位置，重新计算观测者⾄被测体的距离L2，估算光⾏时DT2；
-4. 当 | DTn - DTn-1 | 近似等于0时, 即计算出了精准的光⾏时DTn（n>=1）,进⽽可计算出被测体准确视位置。
+(1). 从给定T0时刻的历表⼏何位置，计算观测者⾄被测体的距离L0，估算光⾏时DT0；
+
+(2). 基于被测天体运动速度计算T0+DT0时刻新位置，重新计算观测者⾄被测体的距离L1，估算光⾏时DT1；
+
+(3). 基于被测天体运动速度计算T0+DT1时刻新位置，重新计算观测者⾄被测体的距离L2，估算光⾏时DT2；
+
+(4). 当 | DTn - DTn-1 | 近似等于0时, 即计算出了精准的光⾏时DTn（n>=1）,进⽽可计算出被测体准确视位置。
 
 
 
@@ -48,14 +51,14 @@ Figure 2. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
    过滤夹角角度过大的时间，定位出月食发生的那一天。
 
    -- 可根据影锥大致角度，继续以半天或一小时为步长逼近，程序仅使用到半天，可根据需要缩小。
-
-
-
+   
+   
+   
 4. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
 
-![](/media/jason/%E6%96%B0%E5%8A%A0%E5%8D%B7/UCAS/%E8%AF%BE%E7%A8%8B/%E5%A4%A9%E4%BD%93%E6%B5%8B%E9%87%8F%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/H3%E6%9C%88%E9%A3%9F%E4%BD%9C%E4%B8%9A/%E5%8F%82%E8%80%83%E6%A0%87%E5%87%86.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/reference.png)
 
-<center>Figure 3. 月食参考时间</center>
+<p align = "center">Figure 3. 月食参考时间</p>
 
 图片来源：[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
 
@@ -63,11 +66,11 @@ Figure 2. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 5. 程序运行结果如下，与Figure 3. 符合程度较佳
 
-![](/media/jason/新加卷/UCAS/课程/天体测量学及其应用/H3月食作业/2018-11-24 15-35-24屏幕截图.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/result.png)
+<p align = "center">Figure 4. 程序运行结果</p>
 
 
-
-##### subroutines
+##### **subroutines**
 
 以下列出了程序调用的子程序：
 
@@ -234,11 +237,15 @@ C            For this, set km=.true. in the STCOMX common block.
 
 
 
-##### getcode
+##### **getcode**
 
-this project：
+this project：[https://github.com/Sardingfish/MOON_ECLIPSE](https://github.com/Sardingfish/MOON_ECLIPSE)
 
 SOFA：[http://www.iausofa.org/index.html](http://www.iausofa.org/index.html)
 
 DE/LE EPHEMERIS：[ftp://ssd.jpl.nasa.gov](ftp://ssd.jpl.nasa.gov)
+
+<p align = "right">WRITE BY Ding Junshneg</p>
+<p align = "right">2018/11/24 16:46</p>
+
 
