@@ -28,7 +28,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 2. 由于太阳光从太阳出发到经过地球形成影锥需要一定时间，故需要计算光行时。下图为计算光行时的示意图。
 
-![](/media/jason/新加卷/UCAS/课程/天体测量学及其应用/H3月食作业/光行时.png)
+![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png)
 
 <center>Figure 2. 迭代求解光行时</center>
 
