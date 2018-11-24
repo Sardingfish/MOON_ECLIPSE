@@ -17,6 +17,10 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 ##### **principles and strategies**
 
 1. 下图为月食发生前时刻地月日空间关系，
+<div style="align: center">
+<img src="https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png"/>
+</div>
+
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png)
 
