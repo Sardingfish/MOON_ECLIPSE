@@ -30,7 +30,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 ![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/lighttime.png)
 
-<center>Figure 2. 迭代求解光行时</center>
+<p align = "center">Figure 2. 迭代求解光行时</p>
 
 步骤为：
 
@@ -55,7 +55,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/reference.png)
 
-<center>Figure 3. 月食参考时间</center>
+<p align = "center">Figure 3. 月食参考时间</p>
 
 图片来源：[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
 
