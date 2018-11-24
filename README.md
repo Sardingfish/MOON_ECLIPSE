@@ -64,7 +64,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 5. 程序运行结果如下，与Figure 3. 符合程度较佳
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/result.png)
-
+<p align = "center">Figure 4. 程序运行结果</p>
 
 
 ##### **subroutines**
