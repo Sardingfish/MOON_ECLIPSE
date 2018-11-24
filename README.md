@@ -7,10 +7,10 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 ##### mainfiles
 
 1. MOON_ECLIPSE.f95              !主函数文件
-2. README.md                           !说明文件
-3. SOFALIB.f                                !SOFA及其它官方提供的子程序集
-4. JPLEPH                                     !二进制历表文件
-5. selcon.f                                    !DE历表测试文件
+2. README.md                     !说明文件
+3. SOFALIB.f                     !SOFA及其它官方提供的子程序集
+4. JPLEPH                        !二进制历表文件
+5. selcon.f                      !DE历表测试文件
 
 
 
@@ -22,7 +22,7 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 <center>Figure 1. 月食发生前时刻地月日空间关系示意图</center>
 
-Figure 2. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。初亏时刻，存在矢量OE和OM的夹角∠MOE等于视差角ω1和视差角ω2之和（视O为stars，E和M为公转轨道）。
+Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。初亏时刻，存在矢量OE和OM的夹角∠MOE等于视差角ω1和视差角ω2之和（视O为stars，E和M为公转轨道）。
 
 
 
