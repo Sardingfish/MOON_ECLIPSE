@@ -28,7 +28,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 2. 由于太阳光从太阳出发到经过地球形成影锥需要一定时间，故需要计算光行时。下图为计算光行时的示意图。
 
-![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png)
+![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/lighttime.png)
 
 <center>Figure 2. 迭代求解光行时</center>
 
@@ -53,7 +53,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 4. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
 
-![](/media/jason/%E6%96%B0%E5%8A%A0%E5%8D%B7/UCAS/%E8%AF%BE%E7%A8%8B/%E5%A4%A9%E4%BD%93%E6%B5%8B%E9%87%8F%E5%AD%A6%E5%8F%8A%E5%85%B6%E5%BA%94%E7%94%A8/H3%E6%9C%88%E9%A3%9F%E4%BD%9C%E4%B8%9A/%E5%8F%82%E8%80%83%E6%A0%87%E5%87%86.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/reference.png)
 
 <center>Figure 3. 月食参考时间</center>
 
@@ -63,7 +63,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 5. 程序运行结果如下，与Figure 3. 符合程度较佳
 
-![](/media/jason/新加卷/UCAS/课程/天体测量学及其应用/H3月食作业/2018-11-24 15-35-24屏幕截图.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/result.png)
 
 
 
