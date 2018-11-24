@@ -18,7 +18,7 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 1. 下图为月食发生前时刻地月日空间关系，
 
-![](/media/jason/新加卷/UCAS/课程/天体测量学及其应用/H3月食作业/原理图.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png)
 
 <center>Figure 1. 月食发生前时刻地月日空间关系示意图</center>
 
