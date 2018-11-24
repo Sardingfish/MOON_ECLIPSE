@@ -4,7 +4,7 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 
 
-##### mainfiles
+##### **mainfiles**
 
 1. MOON_ECLIPSE.f95              !主函数文件
 2. README.md                     !说明文件
@@ -14,7 +14,7 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 
 
-##### principles and strategies
+##### **principles and strategies**
 
 1. 下图为月食发生前时刻地月日空间关系，
 
@@ -67,7 +67,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 
 
-##### subroutines
+##### **subroutines**
 
 以下列出了程序调用的子程序：
 
@@ -234,7 +234,7 @@ C            For this, set km=.true. in the STCOMX common block.
 
 
 
-##### getcode
+##### **getcode**
 
 this project：[https://github.com/Sardingfish/MOON_ECLIPSE](https://github.com/Sardingfish/MOON_ECLIPSE)
 
