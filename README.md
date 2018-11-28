@@ -5,13 +5,15 @@ THIS IS A README OF PROGRAM MOON_ECLIPSE
 
 ### FILE STRUCTURE
 
-1. MOON_ECLIPSE.f95--------------------!主函数文件
-2. README.md-------------------------------!说明文件
-3. SOFALIB.f-----------------------------------!SOFA及其它官方提供的子程序集
-4. selcon.f---------------------------------------!DE历表测试文件
-5. JPLEPH--------------------------------------!二进制历表文件
-6. makefile--------------------------------------!makefile配置文件
 
+| filename            | description                  |
+| ------------------- | ---------------------------- |
+| 1. MOON_ECLIPSE.f95 | 主函数文件                   |
+| 2. README.md        | 说明文件                     |
+| 3. SOFALIB.f        | SOFA及其它官方提供的子程序集 |
+| 4. selcon.f         | DE历表测试文件               |
+| 5. JPLEPH           | 二进制历表文件               |
+| 6. makefile         | makefile配置文件             |
 
 
 ### PRINCIPLES AND STRATEGIES
