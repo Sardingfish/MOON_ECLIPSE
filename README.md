@@ -3,7 +3,7 @@
 THIS IS A README OF PROGRAM MOON_ECLIPSE
 
 
-### MAINFILES
+### FILE STRUCTURE
 
 1. MOON_ECLIPSE.f95--------------!主函数文件
 2. README.md-------------------------!说明文件
