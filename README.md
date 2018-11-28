@@ -1,9 +1,9 @@
-#### README
+### README
 
 THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 
-##### MAINFILES
+### MAINFILES
 
 1. MOON_ECLIPSE.f95--------------!主函数文件
 2. README.md-------------------------!说明文件
@@ -13,7 +13,7 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 
 
-##### PRINCIPLES AND STRATEGIES
+### PRINCIPLES AND STRATEGIES
 
 1. 下图为月食发生前时刻地月日空间关系，
 
@@ -70,7 +70,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 <p align = "center">Figure 4. 程序运行结果</p>
 
 
-##### SUBROUTINES
+### SUBROUTINES
 
 以下列出了程序调用的子程序：
 
@@ -236,7 +236,7 @@ SUBROUTINE PLEPH ( ET, NTARG, NCENT, RRD )
 ```
 
 
-##### RUN PROGRAM
+### RUN PROGRAM
 1. compile main program file and it's library files.
 ```
 gfortran -c SOFALIB.f
@@ -253,7 +253,7 @@ gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.f
 ```
 
 
-##### GET CODE
+### GET CODE
 
 this project：[https://github.com/Sardingfish/MOON_ECLIPSE](https://github.com/Sardingfish/MOON_ECLIPSE)
 
