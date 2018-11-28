@@ -6,11 +6,11 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 ##### mainfiles
 
-1. MOON_ECLIPSE.f95              !主函数文件
-2. README.md                     !说明文件
-3. SOFALIB.f                     !SOFA及其它官方提供的子程序集
-4. JPLEPH                        !二进制历表文件
-5. selcon.f                      !DE历表测试文件
+1. MOON_ECLIPSE.f95--------------!主函数文件
+2. README.md---------------------!说明文件
+3. SOFALIB.f---------------------!SOFA及其它官方提供的子程序集
+4. JPLEPH------------------------!二进制历表文件
+5. selcon.f----------------------!DE历表测试文件
 
 
 
@@ -236,6 +236,21 @@ C            The option is available to have the units in km and km/sec.
 C            For this, set km=.true. in the STCOMX common block.
 ```
 
+##### run program
+1. compile main program file and it's library files.
+```
+gfortran -c SOFALIB.f
+gfortran -c selcon.f
+gfortran -c MOON_ECLIPSE.f95
+```
+2. link this objective files.
+```
+gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.f
+```
+3. run it.
+```
+./MOON
+```
 
 
 ##### getcode
