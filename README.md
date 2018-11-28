@@ -50,24 +50,29 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
    过滤夹角角度过大的时间，定位出月食发生的那一天。
 
    -- 可根据影锥大致角度，继续以半天或一小时为步长逼近，程序仅使用到半天，可根据需要缩小。
+
+4. 程序流程为：
+
+   ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/flowchart.png)flowchart)
+   
+   <p align = "center">Figure 3. 流程图</p>
    
    
-   
-4. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
+5. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
 
 图片来源：[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/reference.png)
 
-<p align = "center">Figure 3. 月食参考时间</p>
+<p align = "center">Figure 4. 月食参考时间</p>
 
 
 
 
-5. 程序运行结果如下，与Figure 3. 符合程度较佳
+6. 程序运行结果如下，与Figure 3. 符合程度较佳
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/result.png)
-<p align = "center">Figure 4. 程序运行结果</p>
+<p align = "center">Figure 5. 程序运行结果</p>
 
 
 ### SUBROUTINES
