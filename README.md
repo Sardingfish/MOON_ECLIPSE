@@ -251,7 +251,7 @@ gfortran -c MOON_ECLIPSE.f95
 ```
 2. link this objective files.
 ```
-gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.f
+gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.o
 ```
 3. run it.
 ```
@@ -260,7 +260,7 @@ gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.f
 or
 ```
 make
-./MOON
+./MOON.exe
 ```
 
 
