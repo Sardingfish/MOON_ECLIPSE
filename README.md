@@ -4,17 +4,17 @@ THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 
 
-##### mainfiles
+##### MAINFILES
 
 1. MOON_ECLIPSE.f95--------------!主函数文件
-2. README.md---------------------!说明文件
-3. SOFALIB.f---------------------!SOFA及其它官方提供的子程序集
-4. JPLEPH------------------------!二进制历表文件
-5. selcon.f----------------------!DE历表测试文件
+2. README.md-------------------------!说明文件
+3. SOFALIB.f-----------------------------!SOFA及其它官方提供的子程序集
+4. JPLEPH--------------------------------!二进制历表文件
+5. selcon.f---------------------------------!DE历表测试文件
 
 
 
-##### principles and strategies
+##### PRINCIPLES AND STRATEGIES
 
 1. 下图为月食发生前时刻地月日空间关系，
 
@@ -71,7 +71,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 <p align = "center">Figure 4. 程序运行结果</p>
 
 
-##### subroutines
+##### SUBROUTINES
 
 以下列出了程序调用的子程序：
 
@@ -236,7 +236,7 @@ C            The option is available to have the units in km and km/sec.
 C            For this, set km=.true. in the STCOMX common block.
 ```
 
-##### run program
+##### RUN PROGRAM
 1. compile main program file and it's library files.
 ```
 gfortran -c SOFALIB.f
@@ -253,7 +253,7 @@ gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.f
 ```
 
 
-##### getcode
+##### GET CODE
 
 this project：[https://github.com/Sardingfish/MOON_ECLIPSE](https://github.com/Sardingfish/MOON_ECLIPSE)
 
