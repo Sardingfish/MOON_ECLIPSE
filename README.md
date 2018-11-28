@@ -54,7 +54,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 4. 程序流程为：
 
-   ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/FLOW1.png)
+   ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/FLOW2.png)
    
    <p align = "center">Figure 3. 流程图</p>
    
