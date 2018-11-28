@@ -6,10 +6,10 @@ THIS IS A README OF PROGRAM MOON_ECLIPSE
 ### FILE STRUCTURE
 
 1. MOON_ECLIPSE.f95--------------!主函数文件
-2. README.md-------------------------!说明文件
-3. SOFALIB.f-----------------------------!SOFA及其它官方提供的子程序集
-4. JPLEPH--------------------------------!二进制历表文件
-5. selcon.f---------------------------------!DE历表测试文件
+2. README.md---------------------!说明文件
+3. SOFALIB.f---------------------!SOFA及其它官方提供的子程序集
+4. JPLEPH------------------------!二进制历表文件
+5. selcon.f----------------------!DE历表测试文件
 
 
 
@@ -17,7 +17,7 @@ THIS IS A README OF PROGRAM MOON_ECLIPSE
 
 1. 下图为月食发生前时刻地月日空间关系，
 
-![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/orig.png)
 
 <p align = "center">Figure 1. 月食发生前时刻地月日空间关系示意图</p>
 
@@ -27,7 +27,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 2. 由于太阳光从太阳出发到经过地球形成影锥需要一定时间，故需要计算光行时。下图为计算光行时的示意图。
 
-![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/lighttime.png)
+![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/lighttime.png)
 
 <p align = "center">Figure 2. 迭代求解光行时</p>
 
@@ -50,24 +50,29 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
    过滤夹角角度过大的时间，定位出月食发生的那一天。
 
    -- 可根据影锥大致角度，继续以半天或一小时为步长逼近，程序仅使用到半天，可根据需要缩小。
+
+4. 程序流程为：
+
+   ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/flowchart.png)flowchart)
+   
+   <p align = "center">Figure 3. 流程图</p>
    
    
-   
-4. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
+5. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
 
 图片来源：[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
 
-![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/reference.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/reference.png)
 
-<p align = "center">Figure 3. 月食参考时间</p>
-
-
+<p align = "center">Figure 4. 月食参考时间</p>
 
 
-5. 程序运行结果如下，与Figure 3. 符合程度较佳
 
-![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/result.png)
-<p align = "center">Figure 4. 程序运行结果</p>
+
+6. 程序运行结果如下，与Figure 3. 符合程度较佳
+
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/result.png)
+<p align = "center">Figure 5. 程序运行结果</p>
 
 
 ### SUBROUTINES
