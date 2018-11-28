@@ -3,7 +3,6 @@
 THIS IS A READ ME OF PROGRAM MOON_ECLIPSE
 
 
-
 ##### MAINFILES
 
 1. MOON_ECLIPSE.f95--------------!主函数文件
@@ -84,17 +83,17 @@ SUBROUTINE iau_CAL2JD ( IY, IM, ID, DJM0, DJM, J )
 3. **参数说明**：
 
 ```
-*  Given:
-*     IY,IM,ID    i     year, month, day in Gregorian calendar (Note 1)
-*
-*  Returned:
-*     DJM0        d     MJD zero-point: always 2400000.5
-*     DJM         d     Modified Julian Date for 0 hrs
-*     J           i     status:
-*                           0 = OK
-*                          -1 = bad year   (Note 3: JD not computed)
-*                          -2 = bad month  (JD not computed)
-*                          -3 = bad day    (JD computed)
+  Given:
+     IY,IM,ID    i     year, month, day in Gregorian calendar (Note 1)
+
+  Returned:
+     DJM0        d     MJD zero-point: always 2400000.5
+     DJM         d     Modified Julian Date for 0 hrs
+     J           i     status:
+                           0 = OK
+                          -1 = bad year   (Note 3: JD not computed)
+                          -2 = bad month  (JD not computed)
+                          -3 = bad day    (JD computed)
 ```
 
 
@@ -108,17 +107,17 @@ SUBROUTINE iau_JD2CAL ( DJ1, DJ2, IY, IM, ID, FD, J )
 3. **参数说明**：
 
 ```
-*  Given:
-*     DJ1,DJ2     d     Julian Date (Notes 1, 2)
-*
-*  Returned:
-*     IY          i     year
-*     IM          i     month
-*     ID          i     day
-*     FD          d     fraction of day
-*     J           i     status:
-*                           0 = OK
-*                          -1 = unacceptable date (Note 1)
+  Given:
+     DJ1,DJ2     d     Julian Date (Notes 1, 2)
+
+  Returned:
+     IY          i     year
+     IM          i     month
+     ID          i     day
+     FD          d     fraction of day
+     J           i     status:
+                           0 = OK
+                          -1 = unacceptable date (Note 1)
 ```
 
 
@@ -133,11 +132,11 @@ SUBROUTINE iau_PDP ( A, B, ADB )
 
 ```
 Given:
-*     A        d(3)      first p-vector
-*     B        d(3)      second p-vector
-*
-*  Returned:
-*     ADB      d         A . B
+     A        d(3)      first p-vector
+     B        d(3)      second p-vector
+
+  Returned:
+     ADB      d         A . B
 ```
 
 
@@ -151,13 +150,13 @@ SUBROUTINE sla_DD2TF (NDP, DAYS, SIGN, IHMSF)
 3. **参数说明**：
 
 ```
-*  Given:
-*     NDP       int      number of decimal places of seconds
-*     DAYS      dp       interval in days
-*
-*  Returned:
-*     SIGN      char     '+' or '-'
-*     IHMSF     int(4)   hours, minutes, seconds, fraction
+  Given:
+     NDP       int      number of decimal places of seconds
+     DAYS      dp       interval in days
+
+  Returned:
+     SIGN      char     '+' or '-'
+     IHMSF     int(4)   hours, minutes, seconds, fraction
 ```
 
 
@@ -171,15 +170,15 @@ subroutine selconQ(nams,vals)
 3. **参数说明**：
 
 ```
-c  Input 
+  Input 
 
-c           nams :  names (character*6)
+           nams :  names (character*6)
 
-c  Output
+  Output
 
-c           vals :  values corresponding to the input names
-C
-C   QI-ZHAOXIANG@20130402
+           vals :  values corresponding to the input names
+
+  QI-ZHAOXIANG@20130402
 
 ```
 
@@ -194,47 +193,48 @@ SUBROUTINE PLEPH ( ET, NTARG, NCENT, RRD )
 3. **参数说明**：
 
 ```
-C     THIS SUBROUTINE READS THE JPL PLANETARY EPHEMERIS
-C     AND GIVES THE POSITION AND VELOCITY OF THE POINT 'NTARG'
-C     WITH RESPECT TO 'NCENT'.
-C
-C     CALLING SEQUENCE PARAMETERS:
-C
-C       ET = D.P. JULIAN EPHEMERIS DATE AT WHICH INTERPOLATION
-C            IS WANTED.
-C
-C       ** NOTE THE ENTRY DPLEPH FOR A DOUBLY-DIMENSIONED TIME **
-C          THE REASON FOR THIS OPTION IS DISCUSSED IN THE
-C          SUBROUTINE STATE
-C
-C     NTARG = INTEGER NUMBER OF 'TARGET' POINT.
-C
-C     NCENT = INTEGER NUMBER OF CENTER POINT.
-C
-C            THE NUMBERING CONVENTION FOR 'NTARG' AND 'NCENT' IS:
-C
-C                1 = MERCURY           8 = NEPTUNE
-C                2 = VENUS             9 = PLUTO
-C                3 = EARTH            10 = MOON
-C                4 = MARS             11 = SUN
-C                5 = JUPITER          12 = SOLAR-SYSTEM BARYCENTER
-C                6 = SATURN           13 = EARTH-MOON BARYCENTER
-C                7 = URANUS           14 = NUTATIONS (LONGITUDE AND OBLIQ)
-C                            15 = LIBRATIONS, IF ON EPH FILE
-C
-C             (IF NUTATIONS ARE WANTED, SET NTARG = 14. FOR LIBRATIONS,
-C              SET NTARG = 15. SET NCENT=0.)
-C
-C      RRD = OUTPUT 6-WORD D.P. ARRAY CONTAINING POSITION AND VELOCITY
-C            OF POINT 'NTARG' RELATIVE TO 'NCENT'. THE UNITS ARE AU AND
-C            AU/DAY. FOR LIBRATIONS THE UNITS ARE RADIANS AND RADIANS
-C            PER DAY. IN THE CASE OF NUTATIONS THE FIRST FOUR WORDS OF
-C            RRD WILL BE SET TO NUTATIONS AND RATES, HAVING UNITS OF
-C            RADIANS AND RADIANS/DAY.
-C
-C            The option is available to have the units in km and km/sec.
-C            For this, set km=.true. in the STCOMX common block.
+     THIS SUBROUTINE READS THE JPL PLANETARY EPHEMERIS
+     AND GIVES THE POSITION AND VELOCITY OF THE POINT 'NTARG'
+     WITH RESPECT TO 'NCENT'.
+
+     CALLING SEQUENCE PARAMETERS:
+
+       ET = D.P. JULIAN EPHEMERIS DATE AT WHICH INTERPOLATION
+            IS WANTED.
+
+       ** NOTE THE ENTRY DPLEPH FOR A DOUBLY-DIMENSIONED TIME **
+          THE REASON FOR THIS OPTION IS DISCUSSED IN THE
+          SUBROUTINE STATE
+
+     NTARG = INTEGER NUMBER OF 'TARGET' POINT.
+
+     NCENT = INTEGER NUMBER OF CENTER POINT.
+
+            THE NUMBERING CONVENTION FOR 'NTARG' AND 'NCENT' IS:
+
+                1 = MERCURY           8 = NEPTUNE
+                2 = VENUS             9 = PLUTO
+                3 = EARTH            10 = MOON
+                4 = MARS             11 = SUN
+                5 = JUPITER          12 = SOLAR-SYSTEM BARYCENTER
+                6 = SATURN           13 = EARTH-MOON BARYCENTER
+                7 = URANUS           14 = NUTATIONS (LONGITUDE AND OBLIQ)
+                            15 = LIBRATIONS, IF ON EPH FILE
+
+             (IF NUTATIONS ARE WANTED, SET NTARG = 14. FOR LIBRATIONS,
+              SET NTARG = 15. SET NCENT=0.)
+
+      RRD = OUTPUT 6-WORD D.P. ARRAY CONTAINING POSITION AND VELOCITY
+            OF POINT 'NTARG' RELATIVE TO 'NCENT'. THE UNITS ARE AU AND
+            AU/DAY. FOR LIBRATIONS THE UNITS ARE RADIANS AND RADIANS
+            PER DAY. IN THE CASE OF NUTATIONS THE FIRST FOUR WORDS OF
+            RRD WILL BE SET TO NUTATIONS AND RATES, HAVING UNITS OF
+            RADIANS AND RADIANS/DAY.
+
+            The option is available to have the units in km and km/sec.
+            For this, set km=.true. in the STCOMX common block.
 ```
+
 
 ##### RUN PROGRAM
 1. compile main program file and it's library files.
