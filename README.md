@@ -6,10 +6,11 @@ THIS IS A README OF PROGRAM MOON_ECLIPSE
 ### FILE STRUCTURE
 
 1. MOON_ECLIPSE.f95--------------------!主函数文件
-2. README.md----------------------------!说明文件
-3. SOFALIB.f-------------------------------!SOFA及其它官方提供的子程序集
-4. JPLEPH----------------------------------!二进制历表文件
-5. selcon.f----------------------------------!DE历表测试文件
+2. README.md-------------------------------!说明文件
+3. SOFALIB.f-----------------------------------!SOFA及其它官方提供的子程序集
+4. selcon.f---------------------------------------!DE历表测试文件
+5. JPLEPH--------------------------------------!二进制历表文件
+6. makefile--------------------------------------!makefile配置文件
 
 
 
@@ -53,7 +54,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 4. 程序流程为：
 
-   ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/flowchart.png)
+   ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/FLOW.png)
    
    <p align = "center">Figure 3. 流程图</p>
    
@@ -250,11 +251,16 @@ gfortran -c MOON_ECLIPSE.f95
 ```
 2. link this objective files.
 ```
-gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.f
+gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.o
 ```
 3. run it.
 ```
 ./MOON
+```
+or
+```
+make
+./MOON.exe
 ```
 
 
