@@ -6,10 +6,10 @@ THIS IS A README OF PROGRAM MOON_ECLIPSE
 ### FILE STRUCTURE
 
 1. MOON_ECLIPSE.f95--------------!主函数文件
-2. README.md-------------------------!说明文件
-3. SOFALIB.f-----------------------------!SOFA及其它官方提供的子程序集
-4. JPLEPH--------------------------------!二进制历表文件
-5. selcon.f---------------------------------!DE历表测试文件
+2. README.md---------------------!说明文件
+3. SOFALIB.f---------------------!SOFA及其它官方提供的子程序集
+4. JPLEPH------------------------!二进制历表文件
+5. selcon.f----------------------!DE历表测试文件
 
 
 
@@ -17,7 +17,7 @@ THIS IS A README OF PROGRAM MOON_ECLIPSE
 
 1. 下图为月食发生前时刻地月日空间关系，
 
-![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/orig.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/orig.png)
 
 <p align = "center">Figure 1. 月食发生前时刻地月日空间关系示意图</p>
 
@@ -27,7 +27,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 2. 由于太阳光从太阳出发到经过地球形成影锥需要一定时间，故需要计算光行时。下图为计算光行时的示意图。
 
-![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/lighttime.png)
+![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/lighttime.png)
 
 <p align = "center">Figure 2. 迭代求解光行时</p>
 
@@ -57,7 +57,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 图片来源：[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
 
-![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/reference.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/reference.png)
 
 <p align = "center">Figure 3. 月食参考时间</p>
 
@@ -66,7 +66,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 5. 程序运行结果如下，与Figure 3. 符合程度较佳
 
-![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/picture/result.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/result.png)
 <p align = "center">Figure 4. 程序运行结果</p>
 
 
