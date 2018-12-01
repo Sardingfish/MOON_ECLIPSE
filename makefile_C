@@ -1,8 +1,8 @@
 all:
-	gcc -o MOON_ECLIPSE_C.o -c MOON_ECLIPSE_C.c
+	gcc -o MOON_ECLIPSE_C.o -c MOON_ECLIPSE.c
 	gfortran -o SOFALIB.o -c SOFALIB.f
 	gfortran -o selcon.o -c selcon.f	
-	gcc -o MOON_c.exe MOON_ECLIPSE_C.o SOFALIB.o selcon.o -lm -lgfortran
+	gcc -o MOON_C.exe MOON_ECLIPSE_C.o SOFALIB.o selcon.o -lm -lgfortran
 clean:
 	rm *.o *.exe
 
