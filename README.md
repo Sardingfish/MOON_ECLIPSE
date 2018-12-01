@@ -21,9 +21,9 @@ The coder wrote the main function in Fortran language and FORTRAN language respe
 | 3. SOFALIB.f        | SOFA及其它官方提供的子程序集 |
 | 4. selcon.f         | DE历表测试文件               |
 | 5. JPLEPH           | 二进制历表文件               |
-| 6. makefile         | makefile配置文件（Fortran）  |
+| 6. makefile_F       | makefile配置文件（Fortran）  |
 | 7. MOON_ECLIPSE.c   | 主函数文件（C）              |
-| 8. makefile_c       | makefile配置文件（C）        |
+| 8. makefile_C       | makefile配置文件（C）        |
 
 
 
