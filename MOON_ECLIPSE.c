@@ -3,7 +3,7 @@
 #include <string.h>
 #include <math.h>
 /* ****************************************************************
-MOON_ECLIPSE.f95 :Compute Partial Eclipse begins Time(U1)
+MOON_ECLIPSE.c :Compute Partial Eclipse begins Time(U1)
  
           Copyright (C) 2018 by DING Junsheng, All rights reserved.
  
