@@ -10,20 +10,20 @@ THIS IS A README OF PROGRAM MOON_ECLIPSE
 
 The coder wrote the main function in Fortran language and FORTRAN language respectively. they call the same library functions but have different makefile configuration files. Please chone or download the version your need as follows:
 
-- FORTRAN：1，2，3，4，5，6  
-- C：2，3，4，5，7，8
+- FORTRAN：1，3，4，5，7，8
+- C：1，2，4，5，6，8
 
 
 | filename            | description                  |
 | ------------------- | ---------------------------- |
-| 1. MOON_ECLIPSE.f95 | 主函数文件（Fortran）        |
-| 2. README.md        | 说明文件                     |
-| 3. SOFALIB.f        | SOFA及其它官方提供的子程序集 |
-| 4. selcon.f         | DE历表测试文件               |
-| 5. JPLEPH           | 二进制历表文件               |
-| 6. makefile_F       | makefile配置文件（Fortran）  |
-| 7. MOON_ECLIPSE.c   | 主函数文件（C）              |
-| 8. makefile_C       | makefile配置文件（C）        |
+| 1. JPLEPH           | 二进制历表文件               |
+| 2. MOON_ECLIPSE.c   | 主函数文件（C）              |
+| 3. MOON_ECLIPSE.f95 | 主函数文件（Fortran）        |
+| 4. README.md        | 说明文件                     |
+| 5. SOFALIB.f        | SOFA及其它官方提供的子程序集 |
+| 6. makefile_C       | makefile配置文件（C）        |
+| 7. makefile_F       | makefile配置文件（Fortran）  |
+| 8. selcon.f         | DE历表测试文件               |
 
 
 
@@ -88,6 +88,24 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
    ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/FLOW2.png)
 
    <p align = "center">Figure 3. 流程图</p>
+
+   1. 从二进制历表文件JPLEPH中读取天文单位“AU”光速“CLIGHT”等常量。
+   2. 格里高利转为儒略历。
+   3. 迭代定位到可能发生月食的那一天
+   4. 迭代计算光行时。
+   5. 计算太阳岛地球的矢量STE。
+   6. 相似三角形原理计算地球到影锥的矢量ETO。
+   7. 计算月球到地球的矢量MTE。
+   8. 矢量相加计算月球到影锥的矢量MTO。
+   9. 余弦定理计算矢量ETO和MTO的夹角。
+   10. 反三角函数计算影锥相对于地球和月球的视差角。
+   11. 计算角度插值ERR。
+   12. 判断ERR<=0?,若是，跳到13，若否，时间+1秒跳到4。
+   13. 儒略历转为格里高利。
+   14. 小数部分转为UTC。
+   15. 输出结果。
+
+
 
 5. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
 
