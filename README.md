@@ -3,17 +3,46 @@
 THIS IS A README OF PROGRAM MOON_ECLIPSE
 
 
+
 ### FILE STRUCTURE
+
+**version**
+
+The coder wrote the main function in Fortran language and FORTRAN language respectively. they call the same library functions but have different makefile configuration files. Please chone or download the version your need as follows:
+
+- FORTRAN：1，2，3，4，5，6  
+- C：2，3，4，5，7，8
 
 
 | filename            | description                  |
 | ------------------- | ---------------------------- |
-| 1. MOON_ECLIPSE.f95 | 主函数文件                   |
+| 1. MOON_ECLIPSE.f95 | 主函数文件（Fortran）        |
 | 2. README.md        | 说明文件                     |
 | 3. SOFALIB.f        | SOFA及其它官方提供的子程序集 |
 | 4. selcon.f         | DE历表测试文件               |
 | 5. JPLEPH           | 二进制历表文件               |
-| 6. makefile         | makefile配置文件             |
+| 6. makefile         | makefile配置文件（Fortran）  |
+| 7. MOON_ECLIPSE.c   | 主函数文件（C）              |
+| 8. makefile_c       | makefile配置文件（C）        |
+
+
+
+### RUN PROGRAM
+
+- **FORTRAN Version**
+
+```
+# make -f makefile_F
+# ./MOON_F.exe
+```
+
+- **C Version**
+
+```
+# make -f makefile_C
+# ./MOON_C.exe
+```
+
 
 
 ### PRINCIPLES AND STRATEGIES
@@ -57,10 +86,9 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 4. 程序流程为：
 
    ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/FLOW2.png)
-   
+
    <p align = "center">Figure 3. 流程图</p>
-   
-   
+
 5. 程序计算结果需要有参考，挪威斯塔万格的Tmeanddate公司给出的2019年第一次月食发生时间如下图：
 
 图片来源：[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
@@ -243,27 +271,6 @@ SUBROUTINE PLEPH ( ET, NTARG, NCENT, RRD )
             For this, set km=.true. in the STCOMX common block.
 ```
 
-
-### RUN PROGRAM
-1. compile main program file and it's library files.
-```
-gfortran -c SOFALIB.f
-gfortran -c selcon.f
-gfortran -c MOON_ECLIPSE.f95
-```
-2. link this objective files.
-```
-gfortran -o MOON MOON_ECLIPSE.o SOFALIB.o selcon.o
-```
-3. run it.
-```
-./MOON
-```
-or
-```
-make
-./MOON.exe
-```
 
 
 ### GET CODE
