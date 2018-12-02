@@ -8,7 +8,7 @@ THIS IS A README OF PROGRAM MOON_ECLIPSE
 
 **version**
 
-The coder wrote the main function in Fortran language and FORTRAN language respectively. they call the same library functions but have different makefile configuration files. Please chone or download the version your need as follows:
+The coder wrote the main function in C language and FORTRAN language respectively. they call the same library functions but have different makefile configuration files. Please chone or download the version your need as follows:
 
 - FORTRAN：1，3，4，5，7，8
 - C：1，2，4，5，6，8
