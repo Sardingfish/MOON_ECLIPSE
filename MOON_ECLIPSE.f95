@@ -117,7 +117,7 @@ PROGRAM MOON_ECLIPSE
     ETM(3) = RRD(3)
 
     CALL iau_PDP (STE,ETM,PRODUCT)
-    ANGLE_SEM = ACOS(PRODUCT/(SQRT(STE(1)*STE(1)+STE(2)*STE(2)+STE(3)*STE(3))*SQRT(ETM(1)*ETM(1)+ETM(2)*ETM(2)+ETM(3)*ETM(3))))
+    ANGLE_SEM = ACOS(PRODUCT/(SQRT(STE(1)**2+STE(2)**2+STE(3)**2)*SQRT(ETM(1)**2+ETM(2)**2+ETM(3)**2)))
     !WRITE(*,*)ANGLE_SEM
 
     IF(ANGLE_SEM.LE.2.92116) THEN
@@ -139,13 +139,13 @@ PROGRAM MOON_ECLIPSE
 ! Compute light time **********************************************************************
 
     CALL PLEPH(DJM0+DJM, NCENT, NTARG, RRD)
-    DT1 = ((SQRT(RRD(1)*RRD(1)+RRD(2)*RRD(2)+RRD(3)*RRD(3))-ASUN-RE)*iteration_val)/CLIGHT
+    DT1 = ((SQRT(RRD(1)**2+RRD(2)**2+RRD(3)**2)-ASUN-RE)*iteration_val)/CLIGHT
     DT0 = 0.
 
     DO WHILE(ABS(DT0-DT1)>1.16E-8)
     DT0 = DT1
     CALL PLEPH(DJM0+DJM-DT0, NCENT, NTARG, RRD)
-    DT1 = ((SQRT(RRD(1)*RRD(1)+RRD(2)*RRD(2)+RRD(3)*RRD(3))-ASUN-RE)*iteration_val)/CLIGHT
+    DT1 = ((SQRT(RRD(1)**2+RRD(2)**2+RRD(3)**2)-ASUN-RE)*iteration_val)/CLIGHT
     END DO
 
 ! Compute angles ***************************************************************************
@@ -164,7 +164,7 @@ PROGRAM MOON_ECLIPSE
     NTARG  = 3     ! the earth
     CALL PLEPH(DJM0+DJM, NCENT, NTARG, RRD)
 
-    ! vector of the moon the to earth
+    ! vector of the earth the to moon
     ETM(1) = RRD(1)            
     ETM(2) = RRD(2)
     ETM(3) = RRD(3)
@@ -176,9 +176,9 @@ PROGRAM MOON_ECLIPSE
 
     ! angles
     CALL iau_PDP (ETO,MTO,PRODUCT)     
-    ANGLE_EOM = ACOS(PRODUCT/(SQRT(ETO(1)*ETO(1)+ETO(2)*ETO(2)+ETO(3)*ETO(3))*SQRT(MTO(1)*MTO(1)+MTO(2)*MTO(2)+MTO(3)*MTO(3))))
-    ANGLE_EO  = ASIN(RE/SQRT(ETO(1)*ETO(1)+ETO(2)*ETO(2)+ETO(3)*ETO(3)))
-    ANGLE_MO  = ASIN(AM/SQRT(MTO(1)*MTO(1)+MTO(2)*MTO(2)+MTO(3)*MTO(3)))
+    ANGLE_EOM = ACOS(PRODUCT/(SQRT(ETO(1)**2+ETO(2)**2+ETO(3)**2)*SQRT(MTO(1)**2+MTO(2)**2+MTO(3)**2)))
+    ANGLE_EO  = ATAN(RE/SQRT(ETO(1)**2+ETO(2)**2+ETO(3)**2))
+    ANGLE_MO  = ATAN(AM/SQRT(MTO(1)**2+MTO(2)**2+MTO(3)**2))
 
     ! angle error
     ERR = ANGLE_EOM - ANGLE_EO - ANGLE_MO     
@@ -199,6 +199,7 @@ PROGRAM MOON_ECLIPSE
   90 FORMAT(/,' LIGHT TIME: ',F15.3,' second',/)
 
   CALL iau_JD2CAL ( DJM0, DJM, YEAR, MONTH, DAY, DDAY, J )
+
   DDAY=DDAY-(32.164+37)*iteration_val                       
   CALL sla_DD2TF (NDP, DDAY, SIGN, IHMSF)                    
   WRITE(*,*)'Partial Eclipse begins(U1)'
@@ -208,4 +209,3 @@ PROGRAM MOON_ECLIPSE
   110 FORMAT(' ANGLE_EOM =',F10.6/,' ANGLE_EO  =',F10.6/,' ANGLE_MO  =',F10.6/)
 
   END PROGRAM MOON_ECLIPSE
-
