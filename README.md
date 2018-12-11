@@ -28,7 +28,7 @@ The coder wrote the main function in C language and FORTRAN language respectivel
 
 ### RUN PROGRAM
 
-Please check that gfortran and gcc are installed before running. If not, refer to ['here'](http://blog.sina.com.cn/s/blog_6dd65c6f0100y793.html) please. 
+Please check that [gfortran](https://gcc.gnu.org/fortran/) and [gcc](https://gcc.gnu.org/) are installed before running. If not, refer to ['here'](http://blog.sina.com.cn/s/blog_6dd65c6f0100y793.html) please. 
 
 - **FORTRAN Version**
 
