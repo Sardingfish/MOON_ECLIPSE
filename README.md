@@ -16,14 +16,14 @@ The coder wrote the main function in C language and FORTRAN language respectivel
 
 | NO.  | FILENAME         | DESCRIPTION                  |
 | ---- | ---------------- | ---------------------------- |
-| 1    | JPLEPH           | 二进制历表文件               |
-| 2    | MOON_ECLIPSE.c   | 主函数文件（C）              |
-| 3    | MOON_ECLIPSE.f95 | 主函数文件（Fortran）        |
-| 4    | README.md        | 说明文件                     |
-| 5    | SOFALIB.f        | 本程序用到的SOFA软件子程序集  |
-| 6    | makefile_C       | makefile配置文件（C）        |
-| 7    | makefile_F       | makefile配置文件（Fortran）  |
-| 8    | selcon.f         | DE历表测试文件               |
+| 1    | JPLEPH           | the binary JPL ephemeris file. |
+| 2    | MOON_ECLIPSE.c   | the main function file of C language. |
+| 3    | MOON_ECLIPSE.f95 | the main function file of FORTRAN language. |
+| 4    | README.md        | readme file.         |
+| 5    | SOFALIB.f        | SOFA subroutines used in this project. |
+| 6    | makefile_C       | C version makefile (the file directs make on how to compile and link a program). |
+| 7    | makefile_F       | FORTRAN version makefile(the file directs make on how to compile and link a program). |
+| 8    | selcon.f         | the select constant file in the DE ephemeris. |
 
 
 
