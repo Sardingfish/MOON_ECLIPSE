@@ -17,8 +17,8 @@ The coder wrote the main function in C language and FORTRAN language respectivel
 | NO.  | FILENAME         | DESCRIPTION                  |
 | ---- | ---------------- | ---------------------------- |
 | 1    | JPLEPH           | the binary JPL ephemeris file. |
-| 2    | MOON_ECLIPSE.c   | the main function file of C language. |
-| 3    | MOON_ECLIPSE.f95 | the main function file of FORTRAN language. |
+| 2    | MOON_ECLIPSE.c   | the main function file in C language. |
+| 3    | MOON_ECLIPSE.f95 | the main function file in FORTRAN language. |
 | 4    | README.md        | readme file.         |
 | 5    | SOFALIB.f        | SOFA subroutines used in this project. |
 | 6    | makefile_C       | C version makefile (the file directs make on how to compile and link a program). |
