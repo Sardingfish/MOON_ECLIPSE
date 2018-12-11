@@ -32,15 +32,15 @@ The coder wrote the main function in C language and FORTRAN language respectivel
 - **FORTRAN Version**
 
 ```
-# make -f makefile_F
-# ./MOON_F.exe
+$ make -f makefile_F
+$ ./MOON_F.exe
 ```
 
 - **C Version**
 
 ```
-# make -f makefile_C
-# ./MOON_C.exe
+$ make -f makefile_C
+$ ./MOON_C.exe
 ```
 
 
