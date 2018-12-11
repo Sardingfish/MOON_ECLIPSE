@@ -1,6 +1,6 @@
 # README
 
-The purpose of the program is to compute the initial eclipse period of the first lunar eclipse in 2019, when the moon just entered the umbra, based on the [DE421](https://ipnpr.jpl.nasa.gov/progress_report/42-178/178C.pdf) and [SOFA](http://www.iausofa.org/index.html).
+The purpose of the program is to compute the initial eclipse time of the first lunar eclipse in 2019, when the moon just entered the umbra, based on the [DE421](https://ipnpr.jpl.nasa.gov/progress_report/42-178/178C.pdf) and [SOFA](http://www.iausofa.org/index.html).
 
 
 ### FILE STRUCTURE
@@ -27,6 +27,8 @@ The coder wrote the main function in C language and FORTRAN language respectivel
 
 
 ### RUN PROGRAM
+
+Please check that gfortran and gcc are installed before running. If not, refer to [here](http://blog.sina.com.cn/s/blog_6dd65c6f0100y793.html) please. 
 
 - **FORTRAN Version**
 
