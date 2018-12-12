@@ -48,23 +48,23 @@ $ ./MOON_C.exe
 
 ### PRINCIPLES AND STRATEGIES
 
-1. 下图为月食发生前时刻地月日空间关系，
+1. The figure below shows the spatial relationship between the earth, the moon and the sun before the eclipse,
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/orig.png)
 
-<p align = "center">Figure 1. 月食发生前时刻地月日空间关系示意图</p>
+<p align = "center">Figure 1. Schematic diagram of the spatial relationship between the earth, the moon and the sun at the time before the eclipse</p>
 
-Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。初亏时刻，存在矢量OE和OM的夹角∠MOE等于地球相对影锥的角半径ω1和月球相对影锥的角半径ω2之和。
+In the Figure 1, S is the sun, E is the earth, M is the moon, and O is the earth's umbra cone. At the beginning of the deficit, there is an Angle between the vector OE and OM, Angle MOE, which is equal to the sum of the Angle oh-1, the earth's relative shadow cone, and oh2, the moon's relative shadow cone.
 
 
 
-2. 由于太阳光从太阳出发到经过地球形成影锥需要一定时间，故需要计算光行时。下图为计算光行时的示意图。
+2. Since it takes time for the sun's rays to leave the sun and pass through the earth to form a shadow cone, it is necessary to calculate the light travel time. The figure below is a schematic diagram for calculating the light line.
 
 ![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/lighttime.png)
 
-<p align = "center">Figure 2. 迭代求解光行时</p>
+<p align = "center">Figure 2. Iteratively solve for light travel time</p>
 
-步骤为：
+Steps as follows:
 
 (1). 从给定T0时刻的历表⼏何位置，计算观测者⾄被测体的距离L0，估算光⾏时DT0；
 
@@ -76,7 +76,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 
 
-3. 加快计算过程采用的策略
+3. Strategies used to speed up the computation process
 
    -- 由于月食发生时日-地-月成一条直线，此时日-地-月所成夹角靠近180度，故首先以一天为步长，
 
@@ -84,11 +84,11 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
    -- 可根据影锥大致角度，继续以半天或一小时为步长逼近，程序仅使用到半天，可根据需要缩小。
 
-4. 程序流程为：
+4. The procedure flow is as follows:
 
    ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/FLOW2.png)
 
-   <p align = "center">Figure 3. 流程图</p>
+   <p align = "center">Figure 3. The flow chart</p>
 
    1. 从二进制历表文件JPLEPH中读取天文单位“AU”光速“CLIGHT”等常量。
    2. 格里高利转为儒略历。
@@ -108,7 +108,7 @@ Figure 1. 中，S为太阳，E为地球，M为月球，O为地球本影影锥。
 
 
 
-5. 程序计算结果需要有参考，挪威斯塔万格的Timeanddata公司给出的2019年第一次月食发生时间如下图：
+5. The calculation results of the program need to be referred to. Timeanddata of stavanger, Norway gives the time of the first lunar eclipse in 2019 as shown in the figure below:
 
 Source of the image:[https://www.timeanddate.com/eclipse/lunar/2019-january-21](https://www.timeanddate.com/eclipse/lunar/2019-january-21)
 
@@ -127,7 +127,7 @@ Source of the image:[https://www.timeanddate.com/eclipse/lunar/2019-january-21](
 
 ### SUBROUTINES
 
-以下列出了程序调用的子程序：
+The subroutines invoked by the program are listed below:
 
 ```fortran
 SUBROUTINE iau_CAL2JD ( IY, IM, ID, DJM0, DJM, J )
