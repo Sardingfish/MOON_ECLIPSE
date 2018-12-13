@@ -77,6 +77,7 @@ Steps as follows:
 
 
 3. Strategies used to speed up the computation process
+![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/mostlikelyday.png)
 
    -- 由于月食发生时日-地-月成一条直线，此时日-地-月所成夹角靠近180度，故首先以一天为步长，
 
