@@ -77,7 +77,10 @@ Steps as follows:
 
 
 3. Strategies used to speed up the computation process
+
 ![image](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/mostlikelyday.png)
+
+<p align = "center">Figure 3. Locate the most likely day</p>
 
    -- 由于月食发生时日-地-月成一条直线，此时日-地-月所成夹角靠近180度，故首先以一天为步长，
 
@@ -89,7 +92,7 @@ Steps as follows:
 
    ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/FLOW2.png)
 
-   <p align = "center">Figure 3. The flow chart</p>
+   <p align = "center">Figure 4. The flow chart</p>
 
    1. 从二进制历表文件JPLEPH中读取天文单位“AU”光速“CLIGHT”等常量。
    2. 格里高利转为儒略历。
@@ -115,15 +118,15 @@ Source of the image:[https://www.timeanddate.com/eclipse/lunar/2019-january-21](
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/reference.png)
 
-<p align = "center">Figure 4. Reference time</p>
+<p align = "center">Figure 5. Reference time</p>
 
 
 
 
-6. The following is the result of running the program,it is in good agreement with Figure 4.
+6. The following is the result of running the program,it is in good agreement with Figure 5.
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/result.png)
-<p align = "center">Figure 5. The program run result</p>
+<p align = "center">Figure 6. The program run result</p>
 
 
 ### SUBROUTINES
