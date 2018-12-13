@@ -50,7 +50,7 @@ $ ./MOON_C.exe
 
 1. The figure below shows the spatial relationship between the earth, the moon and the sun before the eclipse,
 
-![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/orig.png)
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/orige.png)
 
 <p align = "center">Figure 1. Schematic diagram of the spatial relationship between the earth, the moon and the sun at the time before the eclipse</p>
 
