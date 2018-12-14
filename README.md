@@ -54,7 +54,7 @@ $ ./MOON_C.exe
 
 <p align = "center">Figure 1. Schematic diagram of the spatial relationship between the earth, the moon and the sun at the time before the eclipse</p>
 
-    Where S, E and M are the sun, the earth and the moon; O is the earth's umbra cone; ∠EOM is the Angle between the vectors EO and MO; ∠OE and ∠OM are the angular radii of the earth and moon relative to the shadow cone, respectively. When an eclipse occurs, ∠EOM is equal to ∠OE plus ∠OM.
+  Where S, E and M are the sun, the earth and the moon; O is the earth's umbra cone; ∠EOM is the Angle between the vectors EO and MO; ∠OE and ∠OM are the angular radii of the earth and moon relative to the shadow cone, respectively. When an eclipse occurs, ∠EOM is equal to ∠OE plus ∠OM.
 
 
 
@@ -66,13 +66,13 @@ $ ./MOON_C.exe
 
   Steps as follows:
 
-    (1). Calculate the distance L0 from the sun to the earth according to the JPEPH of given time T0, then compute the light trivial time DT0.
+  (1). Calculate the distance L0 from the sun to the earth according to the JPEPH of given time T0, then compute the light trivial time DT0.
   
-    (2). Calculate the new site of T0+DT0 based on the velocity of the object being measured,re-calculate the distance L1 from the sun to the earth,compute the light trivial time DT1.
+  (2). Calculate the new site of T0+DT0 based on the velocity of the object being measured,re-calculate the distance L1 from the sun to the earth,compute the light trivial time DT1.
 
-    (3). Calculate the new site of T0+DT1 based on the velocity of the object being measured,re-calculate the distance L2 from the sun to the earth,compute the light trivial time DT2.
+  (3). Calculate the new site of T0+DT1 based on the velocity of the object being measured,re-calculate the distance L2 from the sun to the earth,compute the light trivial time DT2.
 
-    (4). When the |DTn - DTn-1| approximately equal zero, We get the precise light trivial time DTn (n > = 1), and then we can calculate the measured body's location accurately.
+  (4). When the |DTn - DTn-1| approximately equal zero, We get the precise light trivial time DTn (n > = 1), and then we can calculate the measured body's location accurately.
 
 
 
@@ -82,11 +82,11 @@ $ ./MOON_C.exe
 
 <p align = "center">Figure 3. Locate the most likely day</p>
 
-    -- Since the eclipse occurs in a straight line from the date to the earth and the moon, the Angle between the sun and the earth and the moon is close to 180 degrees, the first step is to take a day as the step length, filter the time when the Angle is too large (the time when the eclipse is impossible), and locate the day when the eclipse occurs.
+  -- Since the eclipse occurs in a straight line from the date to the earth and the moon, the Angle between the sun and the earth and the moon is close to 180 degrees, the first step is to take a day as the step length, filter the time when the Angle is too large (the time when the eclipse is impossible), and locate the day when the eclipse occurs.
    
-    --The distance between the shadow cone and the earth is equal to about 10000 earth's radius, the moon to the earth's distance is equal to about 60 radius of the earth, When an eclipse occurs the Angle between moon-earth and earth-cone less than 1 °
+  --The distance between the shadow cone and the earth is equal to about 10000 earth's radius, the moon to the earth's distance is equal to about 60 radius of the earth, When an eclipse occurs the Angle between moon-earth and earth-cone less than 1 °
 
-    -- After locating the most likely time, You can continue to approach the eclipse at smaller intervals, such as half a day.
+  -- After locating the most likely time, You can continue to approach the eclipse at smaller intervals, such as half a day.
 
 4. The procedure flow is as follows:
 
