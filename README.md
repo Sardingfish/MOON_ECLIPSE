@@ -1,7 +1,11 @@
 # README
+
 [![NPM version][npm-image]][npm-url]
+
 [![build status][travis-image]][travis-url]
+
 [![Downloads][downloads-image]][downloads-url]
+
 [![Codacy Badge][codacy-image]][codacy-url]
 
 The purpose of the program is to compute the initial eclipse time of the first lunar eclipse in 2019, when the moon just entered the umbra, based on the [DE421](https://ipnpr.jpl.nasa.gov/progress_report/42-178/178C.pdf) and [SOFA](http://www.iausofa.org/index.html).
