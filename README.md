@@ -5,9 +5,9 @@ The purpose of the program is to compute the initial eclipse time of the first l
 
 ## File Structure
 
-The coder wrote the main function in C language and FORTRAN language respectively. they call the same library functions but have different makefile configuration files. Please chone or download the version your need as follows:
+The coder wrote the main function in C language and Fortran language respectively. they call the same library functions but have different makefile configuration files. Please chone or download the version your need as follows:
 
-- FORTRAN：1，3，4，5，7，8
+- Fortran：1，3，4，5，7，8
 - C：1，2，4，5，6，8
 
 
@@ -15,11 +15,11 @@ The coder wrote the main function in C language and FORTRAN language respectivel
 | ---- | ---------------- | ---------------------------- |
 | 1    | JPLEPH           | the binary JPL ephemeris file. |
 | 2    | MOON_ECLIPSE.c   | the main function file in C language. |
-| 3    | MOON_ECLIPSE.f95 | the main function file in FORTRAN language. |
+| 3    | MOON_ECLIPSE.f95 | the main function file in Fortran language. |
 | 4    | README.md        | readme file.         |
 | 5    | SOFALIB.f        | SOFA subroutines used in this project. |
 | 6    | makefile_C       | C version makefile (the file directs make on how to compile and link a program). |
-| 7    | makefile_F       | FORTRAN version makefile (the file directs make on how to compile and link a program). |
+| 7    | makefile_F       | Fortran version makefile (the file directs make on how to compile and link a program). |
 | 8    | selcon.f         | the select constant file in the DE ephemeris. |
 
 
@@ -28,7 +28,7 @@ The coder wrote the main function in C language and FORTRAN language respectivel
 
 Please check that [gfortran](https://gcc.gnu.org/fortran/) and [gcc](https://gcc.gnu.org/) are installed before running. If not, refer to ['here'](http://blog.sina.com.cn/s/blog_6dd65c6f0100y793.html) please. 
 
-- **FORTRAN Version**
+- **Fortran Version**
 
 ```
 $ make -f makefile_F
