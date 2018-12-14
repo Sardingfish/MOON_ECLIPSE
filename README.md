@@ -64,15 +64,15 @@ Where S, E and M are the sun, the earth and the moon; O is the earth's umbra con
 
 <p align = "center">Figure 2. Iteratively solve for light travel time</p>
 
-Steps as follows:
+  Steps as follows:
 
-(1). 从给定T0时刻的历表⼏何位置，计算观测者⾄被测体的距离L0，估算光⾏时DT0；
+  (1). Calculate the distance L0 from the sun to the earth according to the JPEPH of given time T0, then compute the light trivial time DT0.
+  
+  (2). Calculate the new site of T0+DT0 based on the velocity of the object being measured,re-calculate the distance L1 from the sun to the earth,compute the light trivial time DT1.
 
-(2). 基于被测天体运动速度计算T0+DT0时刻新位置，重新计算观测者⾄被测体的距离L1，估算光⾏时DT1；
+  (3). Calculate the new site of T0+DT1 based on the velocity of the object being measured,re-calculate the distance L2 from the sun to the earth,compute the light trivial time DT2.
 
-(3). 基于被测天体运动速度计算T0+DT1时刻新位置，重新计算观测者⾄被测体的距离L2，估算光⾏时DT2；
-
-(4). 当 | DTn - DTn-1 | 近似等于0时, 即计算出了精准的光⾏时DTn（n>=1）,进⽽可计算出被测体准确视位置。
+  (4). When the |DTn - DTn-1| approximately equal zero, We get the precise light trivial time DTn (n > = 1), and then we can calculate the measured body's location accurately.
 
 
 
@@ -83,6 +83,7 @@ Steps as follows:
 <p align = "center">Figure 3. Locate the most likely day</p>
 
    -- Since the eclipse occurs in a straight line from the date to the earth and the moon, the Angle between the sun and the earth and the moon is close to 180 degrees, the first step is to take a day as the step length, filter the time when the Angle is too large (the time when the eclipse is impossible), and locate the day when the eclipse occurs.
+   
    --The distance between the shadow cone and the earth is equal to about 10000 earth's radius, the moon to the earth's distance is equal to about 60 radius of the earth, When an eclipse occurs the Angle between moon-earth and earth-cone less than 1 °
 
    -- After locating the most likely time, You can continue to approach the eclipse at smaller intervals, such as half a day.
