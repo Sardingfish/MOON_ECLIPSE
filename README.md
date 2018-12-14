@@ -3,9 +3,7 @@
 The purpose of the program is to compute the initial eclipse time of the first lunar eclipse in 2019, when the moon just entered the umbra, based on the [DE421](https://ipnpr.jpl.nasa.gov/progress_report/42-178/178C.pdf) and [SOFA](http://www.iausofa.org/index.html).
 
 
-### FILE STRUCTURE
-
-**version**
+## File Structure
 
 The coder wrote the main function in C language and FORTRAN language respectively. they call the same library functions but have different makefile configuration files. Please chone or download the version your need as follows:
 
@@ -26,7 +24,7 @@ The coder wrote the main function in C language and FORTRAN language respectivel
 
 
 
-### RUN PROGRAM
+## Usage
 
 Please check that [gfortran](https://gcc.gnu.org/fortran/) and [gcc](https://gcc.gnu.org/) are installed before running. If not, refer to ['here'](http://blog.sina.com.cn/s/blog_6dd65c6f0100y793.html) please. 
 
@@ -46,7 +44,7 @@ $ ./MOON_C.exe
 
 
 
-### PRINCIPLES AND STRATEGIES
+## Principles and Strategies
 
 1. The figure below shows the spatial relationship between the earth, the moon and the sun before the eclipse,
 
@@ -66,11 +64,11 @@ $ ./MOON_C.exe
 
   Steps as follows:
 
-  (1). Calculate the distance L0 from the sun to the earth according to the JPEPH of given time T0, then compute the light trivial time DT0.
+  (1). Calculate the distance L0 from the sun to the earth according to the JPEPH of given time T0, then compute the light trivel time DT0.
   
-  (2). Calculate the new site of T0+DT0 based on the velocity of the object being measured,re-calculate the distance L1 from the sun to the earth,compute the light trivial time DT1.
+  (2). Calculate the new site of T0+DT0 based on the velocity of the object being measured,re-calculate the distance L1 from the sun to the earth,compute the light trivel time DT1.
 
-  (3). Calculate the new site of T0+DT1 based on the velocity of the object being measured,re-calculate the distance L2 from the sun to the earth,compute the light trivial time DT2.
+  (3). Calculate the new site of T0+DT1 based on the velocity of the object being measured,re-calculate the distance L2 from the sun to the earth,compute the light trivel time DT2.
 
   (4). When the |DTn - DTn-1| approximately equal zero, We get the precise light trivial time DTn (n > = 1), and then we can calculate the measured body's location accurately.
 
@@ -129,7 +127,7 @@ $ ./MOON_C.exe
 <p align = "center">Figure 6. The result of the program</p>
 
 
-### SUBROUTINES
+## Subroutines
 
 The subroutines invoked by the program are listed below:
 
@@ -296,7 +294,7 @@ SUBROUTINE PLEPH ( ET, NTARG, NCENT, RRD )
 
 
 
-### GET CODE
+## Get Code
 
 this project：[https://github.com/Sardingfish/MOON_ECLIPSE](https://github.com/Sardingfish/MOON_ECLIPSE)
 
@@ -304,7 +302,6 @@ SOFA：[http://www.iausofa.org/index.html](http://www.iausofa.org/index.html)
 
 DE/LE EPHEMERIS：[ftp://ssd.jpl.nasa.gov](ftp://ssd.jpl.nasa.gov)
 
-<p align = "right">WRITE BY Ding Junsheng</p>
-<p align = "right">2018/11/24 16:46</p>
+## License
 
 
