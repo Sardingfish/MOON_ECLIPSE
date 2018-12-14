@@ -82,11 +82,10 @@ Steps as follows:
 
 <p align = "center">Figure 3. Locate the most likely day</p>
 
-   -- 由于月食发生时日-地-月成一条直线，此时日-地-月所成夹角靠近180度，故首先以一天为步长，
+   -- Since the eclipse occurs in a straight line from the date to the earth and the moon, the Angle between the sun and the earth and the moon is close to 180 degrees, the first step is to take a day as the step length, filter the time when the Angle is too large (the time when the eclipse is impossible), and locate the day when the eclipse occurs.
+   --The distance between the shadow cone and the earth is equal to about 10000 earth's radius, the moon to the earth's distance is equal to about 60 radius of the earth, When an eclipse occurs the Angle between moon-earth and earth-cone less than 1 °
 
-   过滤夹角角度过大的时间，定位出月食发生的那一天。
-
-   -- 可根据影锥大致角度，继续以半天或一小时为步长逼近，程序仅使用到半天，可根据需要缩小。
+   -- After locating the most likely time, You can continue to approach the eclipse at smaller intervals, such as half a day.
 
 4. The procedure flow is as follows:
 
@@ -94,21 +93,21 @@ Steps as follows:
 
    <p align = "center">Figure 4. The flow chart</p>
 
-   1. 从二进制历表文件JPLEPH中读取天文单位“AU”光速“CLIGHT”等常量。
-   2. 格里高利转为儒略历。
-   3. 迭代定位到可能发生月食的那一天
-   4. 迭代计算光行时。
-   5. 计算太阳到地球的矢量STE。
-   6. 相似三角形原理计算地球到影锥的矢量ETO。
-   7. 计算月球到地球的矢量MTE。
-   8. 矢量相加计算月球到影锥的矢量MTO。
-   9. 余弦定理计算矢量ETO和MTO的夹角。
-   10. 反三角函数计算影锥相对于地球和月球的视差角。
-   11. 计算（地心-影锥-月球夹角）-（地球相对影锥的角半径）-（月球相对影锥的角半径）角度差值ERR。
-   12. 判断ERR<=0?,若是，跳到13，若否，时间+1秒跳到4。
-   13. 儒略历转为格里高利。
-   14. 小数部分转为UTC。
-   15. 输出结果。
+   1. Read astronomical units "AU" light speed "CLIGHT" and other constants from the binary almanac file JPLEPH.
+   2. Converte the Gregorian calendar to the Julian calendar.
+   3. Iterate to the day when an eclipse is likely to occur
+   4. Iterate over the light travel time.
+   5. Calculate the vector STE from the sun to the earth.
+   6. Calculate the vector ETO from the earth to the shadow cone according to the similar triangle principle.
+   7. Calculate the MTE(vector from the moon to the earth).
+   8. Calculate the MTO according to the vector addition rule.
+   9. Calculate the Angle between vector ETO and MTO according to cosine theorem.
+   10. Calculate the angular radius of the shadow cone relative to the earth and the moon according to the principle of inverse trigonometric function.
+   11. Compute ERR, ERR = ∠EOM - ∠OM - ∠ OE.
+   12. Judge ERR < = 0? , if yes, jump to 13; if not, time +1 then jump to 4.
+   13. Converte the Julian calendar to the Gregorian calendar.
+   14. Converte the decimal part to UTC time.
+   15. Output the results.
 
 
 
@@ -126,7 +125,7 @@ Source of the image:[https://www.timeanddate.com/eclipse/lunar/2019-january-21](
 6. The following is the result of running the program,it is in good agreement with Figure 5.
 
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/result.png)
-<p align = "center">Figure 6. The program run result</p>
+<p align = "center">Figure 6. The result of the program</p>
 
 
 ### SUBROUTINES
