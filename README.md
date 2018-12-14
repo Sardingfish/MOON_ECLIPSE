@@ -1,12 +1,4 @@
-# MOON_ECLIPSE 
-
-<p><img width=25px src="https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/moon3.png">
-<img width=25px src="https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/moon7.png">
-<img width=25px src="https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/moon6.png">
-<img width=22px src="https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/moon5.png">
-<img width=25px src="https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/moon6.png">
-<img width=25px src="https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/moon7.png">
-<img width=25px src="https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/moon3.png">
+![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/Logo.png)
 
 The purpose of the program is to compute the initial eclipse time of the first lunar eclipse in 2019, when the moon just entered the umbra, based on the [DE421](https://ipnpr.jpl.nasa.gov/progress_report/42-178/178C.pdf) and [SOFA](http://www.iausofa.org/index.html).
 
