@@ -54,7 +54,7 @@ $ ./MOON_C.exe
 
 <p align = "center">Figure 1. Schematic diagram of the spatial relationship between the earth, the moon and the sun at the time before the eclipse</p>
 
-In the Figure 1, S is the sun, E is the earth, M is the moon, and O is the earth's umbra cone. At the beginning of the deficit, there is an Angle between the vector OE and OM, Angle MOE, which is equal to the sum of the Angle oh-1, the earth's relative shadow cone, and oh2, the moon's relative shadow cone.
+Where S, E and M are the sun, the earth and the moon; O is the earth's umbra cone; ∠EOM is the Angle between the vectors EO and MO; ∠OE and ∠OM are the angular radii of the earth and moon relative to the shadow cone, respectively. When an eclipse occurs, ∠EOM is equal to ∠OE plus ∠OM.
 
 
 
