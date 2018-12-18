@@ -7,6 +7,7 @@ PROGRAM MOON_ECLIPSE
 ! 
 ! version :$Revision: 1.1 $ $Date: 2018/11/25 $
 ! history : 2018/11/25  1.0  new
+!         : 2018/12/15  1.1  add light time from moon to earth
 
   REAL *8 :: AU                             !Number of kilometers per astronomical unit (km)
   REAL *8 :: CLIGHT                         !Speed of light (km/s)
@@ -183,24 +184,29 @@ PROGRAM MOON_ECLIPSE
     ! angle error
     ERR = ANGLE_EOM - ANGLE_EO - ANGLE_MO     
  
+    ! loop exit condition
+    IF(ERR.LE.0D0) EXIT              
+
     ! DJM plus 1s
     DJM = DJM+iteration_val               
-  
-    ! loop exit condition
-    IF(ERR.LE.0D0) EXIT                
-
+    
   END DO
+
+    ! Plus ligth time from the moon to the earth
+    DJM = DJM + ((SQRT(RRD(1)**2+RRD(2)**2+RRD(3)**2)-AM-RE)*iteration_val)/CLIGHT
 
 ! Output the results ***************************************************
 
   WRITE(*,85)
   85 FORMAT(//,'RESULTS...')
+
   WRITE(*,90)DT1/iteration_val
   90 FORMAT(/,' LIGHT TIME: ',F15.3,' second',/)
 
+  !CALL iau_TTTAI ( TT1, TT2, DJM0, DJM, J )
   CALL iau_JD2CAL ( DJM0, DJM, YEAR, MONTH, DAY, DDAY, J )
 
-  DDAY=DDAY-(32.164+37)*iteration_val                       
+  DDAY=DDAY-(32.184+37)*iteration_val                       
   CALL sla_DD2TF (NDP, DDAY, SIGN, IHMSF)                    
   WRITE(*,*)'Partial Eclipse begins(U1)'
   WRITE(*,100) YEAR,MONTH,DAY,IHMSF(1),IHMSF(2),IHMSF(3)+IHMSF(4)/1000.0   
