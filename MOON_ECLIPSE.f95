@@ -8,6 +8,7 @@ PROGRAM MOON_ECLIPSE
 ! version :$Revision: 1.1 $ $Date: 2018/11/25 $
 ! history : 2018/11/25  1.0  new
 !         : 2018/12/15  1.1  add light time from moon to earth
+!         : 2018/12/24  1.2  fixed the order of NTARG and NCENT in the parameter list
 
   REAL *8 :: AU                             !Number of kilometers per astronomical unit (km)
   REAL *8 :: CLIGHT                         !Speed of light (km/s)
@@ -31,7 +32,7 @@ PROGRAM MOON_ECLIPSE
   REAL *8,DIMENSION(6) :: RRD               !6-WORD D.P. ARRAY CONTAINING POSITION AND VELOCITY OF POINT 'NTARG' RELATIVE TO 'NCENT'
   REAL *8,DIMENSION(3) :: STE               !ARRAY OF 'EARTH' RELATIVE TO 'SUN'
   REAL *8,DIMENSION(3) :: ETO               !ARRAY OF 'Shadow cone' RELATIVE TO 'EARTH'
-  REAL *8,DIMENSION(3) :: ETM               !ARRAY OF 'EARTH' RELATIVE TO 'MOON'
+  REAL *8,DIMENSION(3) :: MTE               !ARRAY OF 'EARTH' RELATIVE TO 'MOON'
   REAL *8,DIMENSION(3) :: MTO               !ARRAY OF 'Shadow cone' RELATIVE TO 'MOON'
   REAL *8,DIMENSION(3) :: STM               !ARRAY OF 'MOON' RELATIVE TO 'SUN'
 
@@ -39,7 +40,6 @@ PROGRAM MOON_ECLIPSE
   REAL *8 :: ANGLE_EOM                      !ANGLE OF Earth-ShadowCone-Moon
   REAL *8 :: ANGLE_EO                       !ANGLE OF Earth-ShadowCone
   REAL *8 :: ANGLE_MO                       !ANGLE OF Moon-ShadowCone
-
   REAL *8 :: PRODUCT                        !inner product 
 
   REAL *8 :: DT0                            !light time lteration variable 
@@ -101,7 +101,7 @@ PROGRAM MOON_ECLIPSE
     NCENT = 11     !the sun
     NTARG = 3      !the earth
 
-    CALL PLEPH(DJM0+DJM, NCENT, NTARG, RRD)
+    CALL PLEPH(DJM0+DJM, NTARG, NCENT, RRD)
 
     ! vector of the sun to the earth
     STE(1) = RRD(1)                      
@@ -110,15 +110,15 @@ PROGRAM MOON_ECLIPSE
 
     NCENT  = 10    ! the moon
     NTARG  = 3     ! the earth
-    CALL PLEPH(DJM0+DJM, NCENT, NTARG, RRD)
+    CALL PLEPH(DJM0+DJM, NTARG, NCENT, RRD)
 
     ! vector of the moon the to earth
-    ETM(1) = RRD(1)            
-    ETM(2) = RRD(2)
-    ETM(3) = RRD(3)
+    MTE(1) = RRD(1)            
+    MTE(2) = RRD(2)
+    MTE(3) = RRD(3)
 
-    CALL iau_PDP (STE,ETM,PRODUCT)
-    ANGLE_SEM = ACOS(PRODUCT/(SQRT(STE(1)**2+STE(2)**2+STE(3)**2)*SQRT(ETM(1)**2+ETM(2)**2+ETM(3)**2)))
+    CALL iau_PDP (STE,MTE,PRODUCT)
+    ANGLE_SEM = ACOS(PRODUCT/(SQRT(STE(1)**2+STE(2)**2+STE(3)**2)*SQRT(MTE(1)**2+MTE(2)**2+MTE(3)**2)))
     !WRITE(*,*)ANGLE_SEM
 
     IF(ANGLE_SEM.LE.2.92116) THEN
@@ -139,13 +139,13 @@ PROGRAM MOON_ECLIPSE
 
 ! Compute light time **********************************************************************
 
-    CALL PLEPH(DJM0+DJM, NCENT, NTARG, RRD)
+    CALL PLEPH(DJM0+DJM, NTARG, NCENT, RRD)
     DT1 = ((SQRT(RRD(1)**2+RRD(2)**2+RRD(3)**2)-ASUN-RE)*iteration_val)/CLIGHT
     DT0 = 0.
 
     DO WHILE(ABS(DT0-DT1)>1.16E-8)
     DT0 = DT1
-    CALL PLEPH(DJM0+DJM-DT0, NCENT, NTARG, RRD)
+    CALL PLEPH(DJM0+DJM-DT0, NTARG, NCENT, RRD)
     DT1 = ((SQRT(RRD(1)**2+RRD(2)**2+RRD(3)**2)-ASUN-RE)*iteration_val)/CLIGHT
     END DO
 
@@ -163,17 +163,17 @@ PROGRAM MOON_ECLIPSE
 
     NCENT  = 10    ! the moon
     NTARG  = 3     ! the earth
-    CALL PLEPH(DJM0+DJM, NCENT, NTARG, RRD)
+    CALL PLEPH(DJM0+DJM, NTARG, NCENT, RRD)
 
-    ! vector of the earth the to moon
-    ETM(1) = RRD(1)            
-    ETM(2) = RRD(2)
-    ETM(3) = RRD(3)
+    ! vector of  the moon to the earth
+    MTE(1) = RRD(1)            
+    MTE(2) = RRD(2)
+    MTE(3) = RRD(3)
 
-    ! vector of the moon the to cone
-    MTO(1) = ETO(1) - ETM(1)    
-    MTO(2) = ETO(2) - ETM(2)
-    MTO(3) = ETO(3) - ETM(3)
+    ! vector of the moon to the cone
+    MTO(1) = ETO(1) - MTE(1)    
+    MTO(2) = ETO(2) - MTE(2)
+    MTO(3) = ETO(3) - MTE(3)
 
     ! angles
     CALL iau_PDP (ETO,MTO,PRODUCT)     
