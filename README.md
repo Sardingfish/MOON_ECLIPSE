@@ -1,4 +1,11 @@
 ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/Logo.png)
+
+![](https://img.shields.io/badge/version-1.1.2-green.svg)
+![](https://img.shields.io/badge/build-passing-brightgreen.svg)
+![](https://img.shields.io/badge/platform-linux-orange.svg)
+![](https://img.shields.io/badge/compiler-gcc%20%26%20gfortran-yellow.svg)
+![](https://img.shields.io/badge/author-Jason%20Ding-blue.svg)
+![](https://img.shields.io/badge/license-MIT-blue.svg)
 --- 
 
 The purpose of the program is to compute the initial eclipse time of the first lunar eclipse in 2019, when the moon just entered the umbra, based on the [DE421](https://ipnpr.jpl.nasa.gov/progress_report/42-178/178C.pdf) and [SOFA](http://www.iausofa.org/index.html).
