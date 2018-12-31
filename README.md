@@ -95,7 +95,7 @@ $ ./MOON_C.exe
 
 4. The procedure flow is as follows:
 
-   ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/flow.svg)
+   ![](https://github.com/Sardingfish/MOON_ECLIPSE/blob/master/image/FLOW2.png)
 
    <p align = "center">Figure 4. The flow chart</p>
 
