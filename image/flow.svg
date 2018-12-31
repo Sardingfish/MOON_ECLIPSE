@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 flow.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="16.9679in" height="8.89506in"
+		viewBox="0 0 1221.69 640.444" xml:space="preserve" color-interpolation-filters="sRGB" class="st2">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(18.375,-18.375)">
+			<title>工作表.1</title>
+			<rect v:rectContext="foreign" x="0" y="36.75" width="1184.94" height="603.694" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="36.75" width="1184.94" height="603.694"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:orgSize="47216" clip="rect(0 0 0 0)" v:data="data:metafile;base64,eNrtfQdcE8n3+CYhhUCAICq9i
+								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"/>
+				</foreignObject>
+				<svg viewBox="0 0 1842 940.01" clip="rect(0 0 0 0)" height="603.694" overflow="hidden" preserveAspectRatio="none"
+						width="1184.94" x="0" y="36.75">
+					<defs>
+						<path id="mfid30"
+								d="M969.08,0 L1083.8,0 L1083.8,1329.6 L3462.1,1329.6 L3462.1,1487 L1083.8,1487 L1083.8,4750.1 L969.08,4750.1 L969.08,1487 L0,1487 L0,1329.6 L969.08,1329.6 L969.08,0 Z"/>
+					</defs>
+					<g>
+						<g transform="matrix(-0.055269, 0.03728, -0.03728, -0.055269, 900.16, 296.01)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid30" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid31"
+											d="M3.7969,2011.9 C0,899.93 900.38,0 2011,0 C3121.7,0 4022.1,899.93 4022.1,2010 C4022.1,3120.2 3121.7,4020.1 2011,4020.1 C900.38,4020.1 0,3120.2 3.7969,2011.9"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 621.75, 348.87)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid31" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 625.48, 454.21)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="795">
+								<text stroke="none" fill="#ffffff" x="0,562,1010,1406,1740,2247,2596,2982" y="0"
+										transform="translate(467,811)" xml:space="preserve">Vectors</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid32"
+								d="M3.8252,989.9 C0,444.14 444.14,0 992.02,0 C1539.9,0 1984,444.14 1984,992.02 C1984,1539.9 1539.9,1984 992.02,1984 C444.14,1984 0,1539.9 3.8252,989.9"/>
+					</defs>
+					<g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 533.74, 295.01)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid32" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 561.21, 335.27)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#ffffff" x="0,366,773,1126" y="0" transform="translate(17,649)"
+										xml:space="preserve">STE</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1242.2, 215.34)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="795">
+								<text stroke="none" fill="#fff2cc" x="0,600,1101,1615,1861,2309" y="0"
+										transform="translate(803,811)" xml:space="preserve">Angle</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid33"
+								d="M4.5927,2015 C0,899.93 900.38,0 2011,0 C3121.7,0 4022.1,899.93 4022.1,2010 C4022.1,3120.2 3121.7,4020.1 2011,4020.1 C900.38,4020.1 0,3120.2 4.5927,2015"/>
+					</defs>
+					<g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 1238.7, 113.67)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid33" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1261.2, 50.734)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Arial&#39;" font-style="normal" font-size="645">
+								<text stroke="none" fill="#3e666f" x="0,640" y="0" transform="translate(284,649)"
+										xml:space="preserve">∠</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1261.2, 50.734)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#3e666f" x="0,353,843,1475" y="0" transform="translate(924,649)"
+										xml:space="preserve">EOM</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1202, 375.21)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Arial&#39;" font-style="normal" font-size="645">
+								<text stroke="none" fill="#3e666f" x="0,640" y="0" transform="translate(77,649)"
+										xml:space="preserve">∠</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1202, 375.21)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#3e666f" x="0,353,843" y="0" transform="translate(717,649)"
+										xml:space="preserve">EO</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1410.4, 375.21)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Arial&#39;" font-style="normal" font-size="645">
+								<text stroke="none" fill="#3e666f" x="0,640" y="0" transform="translate(217,649)"
+										xml:space="preserve">∠</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1410.4, 375.21)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#3e666f" x="0,632,1122" y="0" transform="translate(857,649)"
+										xml:space="preserve">MO</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid34"
+								d="M-1.274,993.91 C0,444.14 444.14,0 992.02,0 C1539.9,0 1984,444.14 1984,992.02 C1984,1539.9 1539.9,1984 992.02,1984 C444.14,1984 0,1539.9 -1.274,993.91"/>
+					</defs>
+					<g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 836.08, 284.74)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid34" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 853.29, 325.01)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#ffffff" x="0,632,1039,1392" y="0" transform="translate(17,649)"
+										xml:space="preserve">MTE</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid35"
+								d="M3.7291,985.96 C0,444.14 444.14,0 992.02,0 C1539.9,0 1984,444.14 1984,992.02 C1984,1539.9 1539.9,1984 992.02,1984 C444.14,1984 0,1539.9 3.7291,985.96"/>
+					</defs>
+					<g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 825.75, 117.27)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid35" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 839.15, 157.54)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#ffffff" x="0,632,1039,1529" y="0" transform="translate(26,649)"
+										xml:space="preserve">MTO</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid36"
+								d="M3.7969,987.99 C0,444.14 444.14,0 992.02,0 C1539.9,0 1984,444.14 1984,992.02 C1984,1539.9 1539.9,1984 992.02,1984 C444.14,1984 0,1539.9 3.7969,987.99"/>
+					</defs>
+					<g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 621.75, 42.134)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid36" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 638.95, 82.402)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#ffffff" x="0,353,760,1250" y="0" transform="translate(88,649)"
+										xml:space="preserve">ETO</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 1226.6, 271.94)">
+							<g fill="#ffffff">
+								<rect x="575.6" y="210.91" width="3150" height="135" stroke="none"/>
+								<defs>
+									<path id="mfid37" d="M705.55,203.1 L4611.6,215.28 L4616,342.48 L699.77,341.27 L705.55,203.1 Z"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.048757, -0.045467, 0.045467, 0.048757, 1192.4, 302.18)">
+							<g fill="#ffffff">
+								<use xlink:href="#mfid37" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid38"
+											d="M2.2149,103.33 L3124.7,99.702 L3120.8,-6.2903 L4019.8,193.78 L3124.7,386.28 L3119.2,295.2 L-1.6824,283.92 L2.2149,103.33 Z"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066301, -0.0069686, 0.0069686, 0.066301, 621.13, 445.16)">
+							<g fill="#ffffff">
+								<use xlink:href="#mfid38" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid39"
+											d="M5365.9,0 L7980.2,340.01 L5365.9,680.01 L5365.9,674.6 L5945.9,451.71 L0,340.01 L5945.9,228.3 L5365.9,5.4181 L5365.9,0 Z"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 742.15, 54.734)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid39" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid40"
+											d="M4474.8,0.50664 C4549.2,-2.0768 4607.6,5.2989 4644.5,20.673 C4646.5,20.916 4647.8,21.406 4649.2,21.906 C4699.6,40.952 4714.4,73.397 4681.8,114.73 L4612.6,202.34 L4074.8,822.36 L4073.2,820.26 L3859.1,1067.5 L3746.8,656.25 L3657.7,684.41 C2173.7,1122.2 266.79,1243.7 0,1255 C1186.2,1120.7 2154,790.9 2797.7,456.31 L2975.9,356.57 L1891.5,313.82 L4338,12.9 L4395.4,6.4827 C4423.5,3.3356 4450,1.368 4474.8,0.50664"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 954.22, 90.735)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid40" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid41"
+											d="M815.16,0.93738 C828.7,-3.8424 839.36,9.804 846.07,38.249 C846.43,38.699 846.68,39.606 846.92,40.531 C856.1,75.769 858.81,135.8 852.86,212.27 L840.25,374.36 L742.28,1521.5 L742,1517.7 L703,1975.1 L682.55,1214.2 L666.32,1266.3 C395.98,2076.3 48.6,2301 0,2322.1 C216.09,2073.5 392.39,1463.3 509.64,844.27 L542.1,659.73 L344.57,580.63 L790.25,23.868 L800.69,11.994 C805.81,6.1715 810.64,2.531 815.16,0.93738"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 662.15, 174.4)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid41" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid42"
+											d="M1318,0.47434 C1339.9,-1.9444 1357.1,4.9611 1367.9,19.355 C1368.5,19.583 1368.9,20.042 1369.3,20.51 C1384.2,38.341 1388.5,68.718 1378.9,107.41 L1358.5,189.44 L1200.1,769.94 L1199.7,767.98 L1136.6,999.46 L1103.6,614.42 L1077.3,640.78 C640.22,1050.7 78.578,1164.4 0,1175 C349.39,1049.3 634.43,740.48 824,427.22 L876.48,333.84 L557.1,293.82 L1277.7,12.078 L1294.6,6.0695 C1302.8,3.123 1310.7,1.2808 1318,0.47434"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.020601, 0.063404, -0.063404, 0.020601, 805.81, 131.66)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid42" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid43"
+											d="M806.59,0.41258 C819.99,-1.6912 830.53,4.3151 837.18,16.835 C837.53,17.033 837.78,17.432 838.02,17.839 C847.1,33.349 849.78,59.77 843.89,93.426 L831.42,164.77 L734.48,669.69 L734.2,667.98 L695.61,869.32 L675.37,534.41 L659.31,557.34 C391.81,913.85 48.089,1012.8 0,1022 C213.82,912.64 388.27,644.06 504.28,371.59 L536.4,290.37 L340.94,255.56 L781.94,10.505 L792.27,5.2791 C797.34,2.7163 802.12,1.114 806.59,0.41258"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(-0.05181, -0.041955, -0.041955, 0.05181, 885.63, 267.23)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid43" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid44"
+											d="M-2.3915,2552.8 C0,1141.5 1974.4,0 4410,0 C6845.6,0 8820,1141.5 8820,2549.6 C8820,3957.6 6845.6,5099.1 4410,5099.1 C1974.4,5099.1 0,3957.6 -2.3915,2552.8"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 900.16, 554.81)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid44" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 867.55, 673.94)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="1260">
+								<text stroke="none" fill="#ffffff" x="0,695,1554,2413,3314,4215,4970,5503" y="0"
+										transform="translate(2147,1278)" xml:space="preserve">ERR&#60;=0?</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.060903, -0.027116, 0.027116, 0.060903, 364.81, 733.23)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="570">
+								<text stroke="none" fill="#3e666f" x="0,307,482,847,1198,1435,1593,1954,2129,2669,2987" y="0"
+										transform="translate(355,576)" xml:space="preserve">Light Time</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid45"
+								d="M1670,0 L36.57,2985.1 L767.97,3354.7 L0,5828.1 L1572.5,2985.1 L889.87,2587.1 L1670,0 Z"/>
+					</defs>
+					<g>
+						<g transform="matrix(-0.052534, -0.041044, 0.041044, -0.052534, 368.45, 991.62)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid45" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 193.2, 248.67)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="570">
+								<text stroke="none" fill="#3e666f" x="0,358,718,1074,1348,1585,1904,2260,2497,2771" y="0"
+										transform="translate(578,520)" xml:space="preserve">Constants</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid46"
+								d="M21.12,4530 C6.6518,4319.8 0.1138,4112.2 0.1138,3900.7 C0.1138,1745.4 679.09,-1.8431 1516.6,-1.8431 C2354.2,-1.8431 3033.2,1745.4 3033.2,3900.7 C3033.2,4241 3016.3,4571.1 2991.1,4890 L2031.1,4245 C2030.3,4132.7 2031.5,4018.3 2031.5,3902.3 C2031.5,2300.1 1800.9,1001.2 1516.5,1001.2 C1232.1,1001.2 1001.5,2300.1 1001.5,3902.3 C1001.5,3974.2 1002,4045.5 996.12,4110 L21.12,4530 Z"/>
+					</defs>
+					<g>
+						<g transform="matrix(0, -0.066667, 0.066667, 0, 130, 370.41)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid46" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid47"
+											d="M548.51,0 C688.89,0 829.27,54.002 936.37,162.01 C1150.6,378.01 1150.6,728.23 936.37,944.23 C767.14,1114.9 637.85,1325.8 548.51,1577 C459.17,1325.8 329.89,1114.9 160.66,944.23 C-53.552,728.23 -53.552,378.01 160.66,162.01 C267.76,54.002 408.14,0 548.51,0"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 69.335, 457.68)">
+							<g fill="#3e666f">
+								<use xlink:href="#mfid47" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid48"
+											d="M-0.028699,282.84 C0,126.93 126.93,0 283.51,0 C440.08,0 567.01,126.93 567.01,283.51 C567.01,440.08 440.08,567.01 283.51,567.01 C126.93,567.01 0,440.08 -0.028699,282.84"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 87.002, 478.14)">
+							<g fill="#ffffff">
+								<use xlink:href="#mfid48" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid49"
+											d="M0,283.51 C0,126.93 126.93,0 283.51,0 C440.08,0 567.01,126.93 567.01,283.51 C567.01,440.08 440.08,567.01 283.51,567.01 C126.93,567.01 0,440.08 0,283.51"/>
+								</defs>
+							</g>
+							<g fill="#ffffff" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid49" fill="none"/>
+								<defs>
+									<path id="mfid50"
+											d="M0,92.819 L6015,92.819 L6015,2.8186 L6810,182.82 L6015,362.82 L6015,272.82 L0,272.82 L0,92.819 Z"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 0, 554.81)">
+							<g fill="#3e666f" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid50" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 320.14, 570.81)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="570">
+								<text stroke="none" fill="#3e666f" x="0,361,536,1076,1394" y="0" transform="translate(134,576)"
+										xml:space="preserve">Time</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid51"
+								d="M1221.1,0 L1816,206 L1221.1,412.01 L1221.1,408.73 L1353.1,273.68 L0,206 L1353.1,138.33 L1221.1,3.2827 L1221.1,0 Z"/>
+					</defs>
+					<g>
+						<g transform="matrix(-0.018376, 0.064084, -0.064084, -0.018376, 256.69, 362.4)">
+							<g fill="#3e666f" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid51" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid52"
+											d="M1186.6,0.9503 C1206.3,-3.8954 1221.8,9.9391 1231.5,38.776 C1232.1,39.232 1232.4,40.152 1232.8,41.09 C1246.1,76.813 1250.1,137.67 1241.4,215.19 L1223.1,379.52 L1080.5,1542.5 L1080.1,1538.6 L1023.3,2002.3 L993.52,1230.9 L969.9,1283.7 C576.38,2104.9 70.743,2332.7 0,2354.1 C314.55,2102.1 571.17,1483.5 741.84,855.9 L789.09,668.82 L501.55,588.63 L1150.3,24.197 L1165.5,12.16 C1172.9,6.2566 1180,2.5659 1186.6,0.9503"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(-0.0046504, 0.066504, -0.066504, -0.0046504, 280.78, 688.86)">
+							<g fill="#3e666f" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid52" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid53"
+											d="M1186.6,0.9503 C1206.3,-3.8954 1221.8,9.9391 1231.5,38.776 C1232.1,39.232 1232.4,40.152 1232.8,41.09 C1246.1,76.813 1250.1,137.67 1241.4,215.19 L1223.1,379.52 L1080.5,1542.5 L1080.1,1538.6 L1023.3,2002.3 L993.52,1230.9 L969.9,1283.7 C576.38,2104.9 70.743,2332.7 0,2354.1 C314.55,2102.1 571.17,1483.5 741.84,855.9 L789.09,668.82 L501.55,588.63 L1150.3,24.197 L1165.5,12.16 C1172.9,6.2566 1180,2.5659 1186.6,0.9503"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.05461, 0.038238, -0.038238, 0.05461, 673.13, 587.45)">
+							<g fill="#3e666f" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid53" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 837.22, 818.88)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Crimes Times Six&#39;" font-style="normal" font-size="885">
+								<text stroke="none" fill="#3e666f" x="0,394,782" y="0" transform="translate(0,807)"
+										xml:space="preserve">NO</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid54"
+								d="M7738.3,0.59828 C7866.9,-2.4524 7968,6.2574 8031.7,24.412 C8035.2,24.699 8037.5,25.278 8039.8,25.869 C8127,48.359 8152.6,86.673 8096.2,135.48 L7976.5,238.93 L7046.5,971.11 L7043.8,968.63 L6673.6,1260.6 L6479.4,774.95 L6325.4,808.2 C3759,1325.2 461.36,1468.6 0,1482 C2051.4,1323.4 3725,933.95 4838,538.85 L5146.2,421.07 L3271,370.58 L7501.8,15.234 L7600.9,7.6553 C7649.5,3.939 7695.4,1.6154 7738.3,0.59828"/>
+					</defs>
+					<g>
+						<g transform="matrix(-0.065654, 0.011577, 0.011577, 0.065654, 1009.6, 780.27)">
+							<g fill="#3e666f" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid54" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid55"
+											d="M1393.2,0.54135 C1416.3,-2.2191 1434.6,5.662 1446,22.09 C1446.6,22.349 1447.1,22.873 1447.5,23.407 C1463.2,43.758 1467.8,78.427 1457.6,122.59 L1436.1,216.2 L1268.6,878.72 L1268.2,876.47 L1201.5,1140.7 L1166.5,701.22 L1138.8,731.31 C676.77,1199.1 83.063,1328.9 0,1341 C369.33,1197.5 670.64,845.1 871.04,487.58 L926.51,381 L588.9,335.33 L1350.6,13.784 L1368.5,6.9269 C1377.2,3.5642 1385.5,1.4617 1393.2,0.54135"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(-0.066667, 0, 0, -0.066667, 1371.7, 538.81)">
+							<g fill="#3e666f" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid55" fill-rule="evenodd" stroke="none"/>
+								<defs>
+									<path id="mfid56"
+											d="M2.5055,979.85 C0,436.08 436.08,0 977.51,4.8504 L3452.5,4.8504 C3994,0 4430.1,436.08 4430.1,974.02 C4430.1,1512 3994,1948 3452.5,1954.9 L977.51,1954.9 C436.08,1948 0,1512 2.5055,979.85"/>
+								</defs>
+							</g>
+						</g>
+						<g transform="matrix(0.066667, 0, 0, 0.066667, 1506.8, 457.68)">
+							<g fill="#3e666f" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid56" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1548.9, 471.08)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#ffffff" x="0,490,964,1371,1791,2265,2672" y="0"
+										transform="translate(248,649)" xml:space="preserve">OUTPUT</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1548.9, 471.08)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="645">
+								<text stroke="none" fill="#ffffff" x="0,437,790,1156,1630,1976,2383,2617,2851" y="0"
+										transform="translate(158,1417)" xml:space="preserve">RESULT!!</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<defs>
+						<path id="mfid57"
+								d="M3986.3,0.48564 C4052.5,-1.9907 4104.6,5.0794 4137.4,19.816 C4139.2,20.049 4140.4,20.52 4141.6,20.999 C4186.5,39.255 4199.7,70.356 4170.6,109.97 L4109,193.95 L3629.9,788.29 L3628.5,786.28 L3437.8,1023.3 L3337.8,629.06 L3258.4,656.05 C1936.4,1075.7 237.66,1192.1 0,1203 C1056.7,1074.3 1918.9,758.13 2492.2,437.41 L2651,341.8 L1685,300.82 L3864.5,12.366 L3915.5,6.2141 C3940.6,3.1974 3964.2,1.3113 3986.3,0.48564"/>
+					</defs>
+					<g>
+						<g transform="matrix(0.060903, -0.027116, 0.027116, 0.060903, 1449.7, 730.37)">
+							<g fill="#3e666f" stroke-width="20" stroke="#41719c" stroke-miterlimit="8">
+								<use xlink:href="#mfid57" fill-rule="evenodd" stroke="none"/>
+							</g>
+						</g>
+					</g>
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1540, 768.48)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Crimes Times Six&#39;" font-style="normal" font-size="885">
+								<text stroke="none" fill="#3e666f" x="0,395,813,1244,1533" y="0" transform="translate(0,807)"
+										xml:space="preserve">yes!</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 283.54, 8.3333)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="1920">
+								<text stroke="none" fill="#ffc000" x="0,1098" y="0" transform="translate(0,1947)"
+										xml:space="preserve">S</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 283.54, 8.3333)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="480">
+								<text stroke="none" fill="#3e666f" x="0,305,665,992,1297" y="0" transform="translate(1098,1947)"
+										xml:space="preserve">TART</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1631.6, 294.87)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="1920">
+								<text stroke="none" fill="#70ad47" x="0,1059" y="0" transform="translate(0,1947)"
+										xml:space="preserve">E</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1631.6, 294.87)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="480">
+								<text stroke="none" fill="#3e666f" x="0,390,754" y="0" transform="translate(1059,1947)"
+										xml:space="preserve">ND</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 1247.6, 218.4)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="795">
+								<text stroke="none" fill="#ffffff" x="0,600,1101,1615,1861,2309" y="0"
+										transform="translate(803,811)" xml:space="preserve">Angle</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 619.73, 810.52)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="570">
+								<text stroke="none" fill="#3e666f" x="0,406" y="0" transform="translate(0,576)"
+										xml:space="preserve">+</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 619.73, 810.52)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="480">
+								<text stroke="none" fill="#3e666f" x="0,232,365" y="0" transform="translate(406,576)"
+										xml:space="preserve">1 </text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+					<!-- GetDC -->
+					<g transform="matrix(0.066667, 0, 0, 0.066667, 619.73, 810.52)">
+						<g stroke="#000000" stroke-miterlimit="10" fill="none">
+							<g font-family="&#39;Segoe UI Black&#39;" font-style="normal" font-weight="700" font-size="570">
+								<text stroke="none" fill="#3e666f" x="0,274" y="0" transform="translate(771,576)"
+										xml:space="preserve">s</text>
+							</g>
+						</g>
+					</g>
+					<!-- Released DC -->
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="36.75" width="1184.94" height="603.694" class="st1"/>
+		</g>
+	</g>
+</svg>
